@@ -122,7 +122,6 @@ I am using Kali 2021.1 and go 1.16.2. To use the most current version, open [htt
 Type `go version` in to see if it returns the installed go version. Try to go get something. If you don't know where to start, try one of [TomNomNom's](https://github.com/tomnomnom/) tools.
 
 Cheers!
-
 -Bastion
 
 Feel free message @borrowedbastion for help.
