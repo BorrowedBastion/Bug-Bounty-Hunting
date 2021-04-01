@@ -18,7 +18,7 @@ For example:
 5. Check the install with `go -version`
 6. If it worked, enjoy! If it didn't, read on and troubleshoot. Then yell curses into the sky if it still doesn't work. 
 
-##Troubleshooting
+## Troubleshooting
 
 If you're bug bounty hunting, you've probably needed to install Go (golang) at some point. If you haven't yet, you should. I don't even like Go, but this isn't about me. A lot of awesome security research tools are written in it.
 
