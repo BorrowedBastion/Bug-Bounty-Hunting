@@ -38,7 +38,7 @@ Most of the issues I see boil down to two issues: the wrong environment, or the 
 
 On any fresh install of a Kali system you have two users. The first is the admin named `sudo` which stands for "super user do". The second is the user. In my case I'm using the name  `kali` , however you may have a different user name. Type `whoami` in the terminal to see your current username.
 
-![image](https://github.com/BorrowedBastion/Bug-Bounty-Hunting/blob/gh-pages/assets/images/whoami.png)
+![image](/assets/images/whoami.png)
 
 `sudo` and `kali` are two separate profiles with different environments. 
 
