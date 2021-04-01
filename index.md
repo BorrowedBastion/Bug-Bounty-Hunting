@@ -56,19 +56,19 @@ Most install guides for Go tell you to edit your bashrc or bash_profile. Often i
 
 This is what zsh in Kali looks like:
 
-![image](https://github.com/BorrowedBastion/Bug-Bounty-Hunting/blob/gh-pages/assets/images/zsh.png)
+![image](/assets/images/zsh.png)
 
 This is what bash in Kali looks like:
 
-![image](https://github.com/BorrowedBastion/Bug-Bounty-Hunting/blob/gh-pages/assets/images/bash.png)
+![image](/assets/images/bash.png)
 
 Your zsh terminal wont see the path configuration (or anything else) put into bashrc or bash_profile. Even worse, trying to get it to see your changes using `source .bashrc` in zsh will mess up your terminal, it's the wrong instruction file.  For the cringe, here is a screenshot of what that looks like: 
 
-![image](https://github.com/BorrowedBastion/Bug-Bounty-Hunting/blob/gh-pages/assets/images/scary_wrong_source.png)
+![image](/images/scary_wrong_source.png)
 
 To get rid of that nonsense, either close your terminal and open a new one or run `source ~/.zshrc`. 
 
-![image](https://github.com/BorrowedBastion/Bug-Bounty-Hunting/blob/gh-pages/assets/images/fix_source.png)
+![image](/assets/images/fix_source.png)
 
 By putting go's PATH variable in both .zshrc and .bashrc, and then closing the terminal and opening a new one, go should work from now on in both kinds. You can use source if you'd like, just make sure you source .bashrc in a bash terminal, or .zshrc from a zsh one.
 
@@ -81,7 +81,7 @@ Let's make some decisions:
 
 I am using Kali 2021.1 and go 1.16.2. To use the most current version, open [https://golang.org/dl/](https://golang.org/dl/), right click copy the link for Linux under featured downloads. If it's different than the one I use here, update the steps with your version's file name.
 
-![image](https://github.com/BorrowedBastion/Bug-Bounty-Hunting/blob/gh-pages/assets/images/Version.png)
+![image](/assets/images/Version.png)
 
 ## Get and Unpack the Installation Files
 
