@@ -62,7 +62,7 @@ This is what bash in Kali looks like:
 
 Your zsh terminal wont see the path configuration (or anything else) put into bashrc or bash_profile. Even worse, trying to get it to see your changes using `source .bashrc` in zsh will mess up your terminal, it's the wrong instruction file.  For the cringe, here is a screenshot of what that looks like: 
 
-![image](/images/scary_wrong_source.png)
+![image](/assets/images/scary_wrong_source.png)
 
 To get rid of that nonsense, either close your terminal and open a new one or run `source ~/.zshrc`. 
 
